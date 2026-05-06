@@ -128,7 +128,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             div.innerHTML = `
                 <img class="menu-img"
-                    src="assets/images/${item.food_name.toLowerCase().replace(/\s+/g, "-")}.png">
+                    src="/assets/images/${item.food_name.toLowerCase().replace(/\s+/g, "-")}.png">
 
                 <div class="item-info">
                     <h4>${item.food_name}</h4>
